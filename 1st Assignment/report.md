@@ -61,3 +61,14 @@ All 100 scanned ports showed as:
 |--------------------------|---------------|
 | TCP Scan Terminal Output | tcp_scan.png  |
 | UDP Scan Terminal Output | udp_scan.png  |
+
+---
+
+## 6. TCP VS UDP
+
+### TCP (Transmission Control Protocol):
+
+- Connection-oriented protocol; establishes a handshake before transmitting data.
+- Ensures reliable delivery: packets arrive in order and are re-transmitted if lost.
+- Commonly used for services like web (HTTP), email (SMTP), and file transfers (FTP).
+- Easier to scan for open ports, as TCP responds reliably.
