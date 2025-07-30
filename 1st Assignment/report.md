@@ -4,8 +4,8 @@
 
 ### Student Name: Vedant Joshi
 
-Date: 30/07/2025
+### Date: 30/07/2025
 
-1. **Introduction**
+**Introduction**
    
 The goal of this assignment is to perform TCP and UDP port discovery on scanme.nmap.org using Nmap, followed by documenting the steps, commands used, findings, and lessons learned. This exercise aims to reinforce practical skills in network reconnaissance as well as ethical considerations in penetration testing.
