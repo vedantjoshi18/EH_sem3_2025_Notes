@@ -1,6 +1,9 @@
 TCP and UDP Port Discovery on scanme.nmap.org
+
 Assignment 1 – Ethical Hacking Semester 3, 2025
-Student Name: YOUR NAME
+
+Student Name: Vedant Joshi
+
 Date: 30/07/2025
 
 1. Introduction
