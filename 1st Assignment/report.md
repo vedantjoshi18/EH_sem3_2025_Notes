@@ -28,4 +28,4 @@
 ## 3. Methodology
 
 ### **A. TCP SYN Scan**
-- **Command:**
+- **Command :** nmap -sS scanme.nmap.org -oN tcp_results.txt
