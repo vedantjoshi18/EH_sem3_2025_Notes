@@ -36,3 +36,28 @@
 - **Purpose :** Find open UDP services among the 100 most common UDP ports.
 
 ---
+
+## 4. Scan Results
+
+### **A. TCP Scan Output**
+
+| Port | State | Service |
+|------|-------|---------|
+| 22   | open  | ssh     |
+| 80   | open  | http    |
+
+### **B. UDP Scan Output**
+
+All 100 scanned ports showed as:  
+> `open|filtered` – No response received; Nmap cannot distinguish between open and filtered due to the nature of UDP scanning.
+
+---
+
+## 5. Visual Evidence
+
+**Screenshots:**
+
+| Description              | File Name      |
+|--------------------------|---------------|
+| TCP Scan Terminal Output | tcp_scan.png  |
+| UDP Scan Terminal Output | udp_scan.png  |
