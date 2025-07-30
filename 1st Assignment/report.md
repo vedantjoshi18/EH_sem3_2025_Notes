@@ -28,4 +28,11 @@
 ## 3. Methodology
 
 ### **A. TCP SYN Scan**
-- **Command :** nmap -sS scanme.nmap.org -oN tcp_results.txt
+- **Command :** `nmap -sS scanme.nmap.org -oN tcp_results.txt`
+- **Purpose :** Stealthy scan to detect open TCP ports.
+
+### **B. UDP Top 100 Scan**
+- **Command :** `sudo nmap -sU --top-ports 100 scanme.nmap.org -oN udp_results.txt`
+- **Purpose :** Find open UDP services among the 100 most common UDP ports.
+
+---
