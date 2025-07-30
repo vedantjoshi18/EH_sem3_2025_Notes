@@ -72,3 +72,18 @@ All 100 scanned ports showed as:
 - Ensures reliable delivery: packets arrive in order and are re-transmitted if lost.
 - Commonly used for services like web (HTTP), email (SMTP), and file transfers (FTP).
 - Easier to scan for open ports, as TCP responds reliably.
+
+### UDP (User Datagram Protocol):
+
+- Connectionless protocol; sends packets without checking if the receiver is ready or even present.
+- No guarantees for order or delivery—packets may arrive out of order or get lost without notice.
+- Used for services requiring speed and low overhead, like DNS, VoIP, and streaming.
+- Harder to scan: many UDP ports don’t respond to probes, and firewall rules often block or silently drop UDP traffic, resulting in ambiguous scan results (open|filtered).
+
+| Aspect            | TCP                            | UDP                          |
+|-------------------|--------------------------------|------------------------------|
+| Connection        | Yes (handshake required)        | No (connectionless)          |
+| Reliability       | Reliable, order ensured         | Unreliable, no guarantee     |
+| Speed             | Slower (more overhead)          | Faster, less overhead        |
+| Typical Use Cases | HTTP, SSH, FTP, SMTP, etc.      | DNS, NTP, SNMP, streaming   |
+| Scan Detection    | Easier and more accurate        | Difficult, more ambiguous    |
